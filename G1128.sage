@@ -1,3 +1,6 @@
+load("./triangulated_surface.sage");
+load("./wg_spine.sage");
+
 def mult(v,w):
     return vector([v[0]*w[0]-v[1]*w[1], v[0]*w[1]+v[1]*w[0]]);
 
